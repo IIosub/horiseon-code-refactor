@@ -54,11 +54,12 @@ p {
 .hero {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-top: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -73,11 +74,12 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin: 20px 0 0 20px
 }
+/*Changed the margins of the  .content and .benefits classes acording to the html changes*/
 
 .benefits {
-    margin-right: 20px;
+    margin: 20px 20px 0 0;
     padding: 20px;
     clear: both;
     float: right;
@@ -135,6 +137,7 @@ p {
     max-width: 150px;
 }
 
+/*removed the classess from the main with .section-styling to acomodate html changes and avoid repetition*/
 .section-styling {
     margin-bottom: 20px;
     padding: 50px;
@@ -155,23 +158,14 @@ p {
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+ h3 {
     font-size: 20px;
 }
