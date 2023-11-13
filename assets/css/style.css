@@ -78,7 +78,7 @@ p {
 }
 /*Changed the margins of the  .content and .benefits classes acording to the html changes*/
 
-.benefits {
+aside {
     margin: 20px 20px 0 0;
     padding: 20px;
     clear: both;
@@ -88,57 +88,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/*Replaced the class benefits with a aside tag and added benefits class to each section inside the aside tag*/
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*removed the classess from the main with .section-styling to acomodate html changes and avoid repetition*/
-.section-styling {
+/*removed the classess from the main with .section-content to acomodate html changes and avoid repetition*/
+.section-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,11 +116,9 @@ p {
     color: #ffffff;
 }
 
-.section-styling img {
+.section-content img {
     max-height: 200px;
 }
-
-
 
  h2 {
     margin-bottom: 20px;
@@ -166,6 +133,6 @@ footer {
     text-align: center;
 }
 
- h3 {
+ h4 {
     font-size: 20px;
 }
